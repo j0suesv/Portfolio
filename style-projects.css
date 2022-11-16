@@ -1,0 +1,65 @@
+body{
+    height: 100%;
+    background-image: linear-gradient(135deg,#020030 60%, #0201E0);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.principal-container{
+    height: 569px;
+    width: 100%;
+    background-image: linear-gradient(45deg,#C90053, rgba(255,255,255,0) 50%);
+    position: fixed;
+}
+.nav{
+	background: rgb(0, 0, 0,0);
+	height: 80px;
+	width: 100%;
+
+}
+
+.nav_container{
+    position: relative;
+    display: flex;
+	height: 100%;
+	width: 100%;
+	margin:  0 auto;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.nav_menu{
+	display: grid;
+	grid-auto-flow: column;
+	gap: 1em;
+}
+.nav_item{
+    font-family: 'PT Mono', monospace;
+    padding: 40px;
+    position: relative;
+    right: 10%;
+}
+.logo{
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    color: #0201E0;
+    position: relative;
+    top: 2px;
+    left: -500%;
+    display: block;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.principal-text{
+    color: #ffffff;
+    width: 50%;
+    font-family: 'Goblin One', cursive;
+    font-size: 2em;
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
